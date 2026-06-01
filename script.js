@@ -35,10 +35,17 @@ function verificar() {
             }
         } else if (fsex[1].checked) {
             genero = 'Mulher'
-            if (idade >=0 && idade < 10) {
+            if (idade >=0 && idade < 4) {
                 img.setAttribute('src','img/baby-girl.png')
-                //crianca
-            } else if (idade < 25) {
+                //Bebe
+            } else if (idade >= 4 && idade < 11) {
+                img.setAttribute('src', 'img/girl.png')
+                //criança
+            } else if (idade >= 12 && idade < 18) {
+                img.setAttribute('src', 'img/adolecenteM.png')
+                //adolecente 
+            }
+            else if (idade < 25) {
                 img.setAttribute('src','img/young-lady.png')
                 //jovem
             } else if (idade < 50) {
