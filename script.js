@@ -16,10 +16,10 @@ function verificar() {
             if (idade >=0 && idade < 4) {
                 img.setAttribute('src','img/baby-boy.png')
                 //bebe
-            } else if (idade >=4 && idade < 11) {
+            } else if (idade < 11) {
                 img.setAttribute('src', 'img/boy.png')
                 //criança homem
-            } else if (idade >= 11 && idade < 18) {
+            } else if (idade < 18) {
                 img.setAttribute('src', 'img/adolecenteH.png')
                 //adolecente homem
             }
@@ -38,10 +38,10 @@ function verificar() {
             if (idade >=0 && idade < 4) {
                 img.setAttribute('src','img/baby-girl.png')
                 //Bebe
-            } else if (idade >= 4 && idade < 11) {
+            } else if (idade < 11) {
                 img.setAttribute('src', 'img/girl.png')
                 //criança
-            } else if (idade >= 12 && idade < 18) {
+            } else if (idade < 18) {
                 img.setAttribute('src', 'img/adolecenteM.png')
                 //adolecente 
             }
